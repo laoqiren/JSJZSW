@@ -1,0 +1,180 @@
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+#head-introduce {
+    background: url("../WPS/wp-content/uploads/2015/05/xueyuanjianjie.png")/*tpa=http://jsjzs.hdu.edu.cn/wps/WPS/wp-content/uploads/2015/05/xueyuanjianjie.png*/
+    /*tpa=http://jsjzs.hdu.edu.cn/wps/WPS/wp-content/uploads/2015/05/xueyuanjianjie.png*/
+    center bottom no-repeat;
+    background-size: cover;
+}
+#head-introduce .alterna-service {
+    color: #fff;
+}
+.post-meta {
+    border-bottom: 1px dashed #e1e1e1;
+    border-top: 1px dashed #e1e1e1;
+    height: 30px;
+}
+.post-meta div {
+    float: left;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {}
+
+/*input your custom css code */
+
+
+/*input your custom css code */
+
+body {
+    font-family: "微软雅黑" !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "微软雅黑" !important;
+}
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-item > a, .header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor > a {
+    color: #f6c206;
+}
+#menu-menu li a:hover {
+    color: #3b3b3b !important;
+}
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>ul:hover .header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>a {
+    color: #3b3b3b !important;
+    //background:#000;
+}
+h1, .h1 {
+    font-size: 26px;
+}
+h2, .h2 {
+    font-size: 26px;
+}
+#main {
+    width: 1000px;
+}
+.content-wrap {
+    background-color: #eeeeee;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/** daohanglan
+*/
+
+#alterna-header {
+    background-color: #818181;
+}
+#alterna-header a {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.#menu-menu {
+    //  margin-left:-450px;
+}
+#menu-menu {
+    // margin-right:100px;
+    width: 800px;
+    overflow: visible !important;
+}
+#menu-menu li {
+    width: 150px !important;
+}
+#menu-menu li a {
+    width: 100%;
+}
+p {
+    text-indent: 2em
+}
+#header-topbar-right-content {
+    float: left !important;
+    margin-left: -15px !important;
+}
+.dt-fancy-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.wpb_accordion_header {
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.table {
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 500px;
+}
+.table, td, th {
+    border: 1px solid black;
+}
+.sub-menu {
+    width: 150px !important;
+}
+.sub-menu li, .sub-menu li a {
+    width: 150px;
+    min-width: 150px !important;
+}
+
+/** 底部文章链隐藏
+**/
+
+.single-pagination {
+    display: none;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+    /*input your custom css code */
+}
+.selections {
+    padding-top: 45px;
+    padding-left: 40px;
+    overflow: hidden;
+    float: left;
+    width: 25%;
+}
+.selections button {
+    text-align: center;
+    display: block;
+    width: 130px;
+    height: 50px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    background-color: #c6dbf1;
+}
+.passages {
+    overflow: hidden;
+    float: left;
+    width: 75%;
+}
+.line {
+    clear: both;
+    width: 100%;
+    margin: 45px 0 45px 0;
+    border: 2px solid #46a1da;
+}
+.entry-title {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+.passages {
+    margin-bottom: 100px;
+}
+.passages p {
+    line-height: 40px;
+    font-size: 17px;
+    clear: both;
+}
+button.active-button {
+    background-color: #46a1da;
+}
+button.hover-button {
+    background-color: #accbe6;
+}
