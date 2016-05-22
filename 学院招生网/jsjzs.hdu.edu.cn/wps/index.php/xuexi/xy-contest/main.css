@@ -1,0 +1,160 @@
+body {
+    font-family: "微软雅黑" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "微软雅黑" !important;
+}
+
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-item > a,
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor > a {
+    color: #f6c206;
+}
+
+#menu-menu li a:hover {
+    color: #3b3b3b !important;
+}
+
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>ul:hover .header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>a {
+    color: #3b3b3b !important;
+    //background:#000;
+}
+
+h1,
+.h1 {
+    font-size: 26px;
+}
+
+h2,
+.h2 {
+    font-size: 26px;
+}
+
+#main {
+    width: 1000px;
+}
+
+.content-wrap {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/** daohanglan
+*/
+
+#alterna-header {
+    background-color: #818181;
+}
+
+#alterna-header a {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.#menu-menu {
+    //  margin-left:-450px;
+}
+
+#menu-menu {
+    // margin-right:100px;
+    width: 800px;
+    overflow: visible !important;
+}
+
+#menu-menu li {
+    width: 150px !important;
+}
+
+#menu-menu li a {
+    width: 100%;
+}
+
+p {
+    text-indent: 2em
+}
+
+#header-topbar-right-content {
+    float: left !important;
+    margin-left: -15px !important;
+}
+
+.dt-fancy-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.wpb_accordion_header {
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.sub-menu {
+    width: 150px !important;
+}
+
+.sub-menu li,
+.sub-menu li a {
+    width: 150px;
+    min-width: 150px !important;
+}
+/** 底部文章链隐藏
+**/
+
+.single-pagination {
+    display: none;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    /*input your custom css code */
+}
+.about-title {
+    margin: 50px auto 40px auto;
+    text-align: center;
+}
+.about-title h3 span {
+    padding: 0 20px;
+}
+.about-title h3::before {
+    content: '';
+    width: 120px;
+    height: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #46a1da;
+}
+.about-title h3::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    height: 2px;
+    background-color: #46a1da;
+}
+#main table {
+    overflow-y: auto!important;
+    height: 600px;
+    font-size: 16px;
+    width: 100%;
+}
+#main table tr{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+#main table th {
+    text-align: center;
+    background-color: #46a1da;
+}
+table {
+    height: 600px;
+    overflow-y:auto;
+}

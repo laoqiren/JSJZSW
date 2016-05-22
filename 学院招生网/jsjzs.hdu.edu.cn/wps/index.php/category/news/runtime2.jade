@@ -1,0 +1,20 @@
+- var i = 1
+for page in news
+    div(class='page')
+        for ef in page
+            ul
+                for enew in ef
+                    li
+                        span(class='icon')
+                            img(src='./icon.png')
+                        a(href='#{enew.url}')  #{enew.title}
+                        span(class='newsDate')  [#{enew.date}]
+        div(class='ul-footer')    
+            span 最大显示5页
+            span(class='first-page') 首页
+            - if ((i++)!=1)
+                span(class='pre')  前一页
+            span(class='next') 下一页
+            span(class='last-page') 尾页
+            input(type='text',class='enterN')
+            input(type='button',class='go',value='GO')

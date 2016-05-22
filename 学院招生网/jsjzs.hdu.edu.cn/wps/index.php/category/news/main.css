@@ -1,0 +1,248 @@
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+body {
+    font-family: "微软雅黑" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "微软雅黑" !important;
+}
+
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-item > a,
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor > a {
+    color: #f6c206;
+}
+
+#menu-menu li a:hover {
+    color: #3b3b3b !important;
+}
+
+.header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>ul:hover .header-style-4 .menu .alterna-nav-menu > li.current-menu-ancestor>a {
+    color: #3b3b3b !important;
+    //background:#000;
+}
+
+h1,
+.h1 {
+    font-size: 26px;
+}
+
+h2,
+.h2 {
+    font-size: 26px;
+}
+
+#main {
+    width: 1000px;
+}
+
+.content-wrap {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/** daohanglan
+*/
+
+#alterna-header {
+    background-color: #818181;
+}
+
+#alterna-header a {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.#menu-menu {
+    //  margin-left:-450px;
+}
+
+#menu-menu {
+    // margin-right:100px;
+    width: 800px;
+    overflow: visible !important;
+}
+
+#menu-menu li {
+    width: 150px !important;
+}
+
+#menu-menu li a {
+    width: 100%;
+}
+
+p {
+    text-indent: 2em
+}
+
+#header-topbar-right-content {
+    float: left !important;
+    margin-left: -15px !important;
+}
+
+.dt-fancy-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.wpb_accordion_header {
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.table {
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.table,
+td,
+th {
+    border: 1px solid black;
+}
+
+.sub-menu {
+    width: 150px !important;
+}
+
+.sub-menu li,
+.sub-menu li a {
+    width: 150px;
+    min-width: 150px !important;
+}
+/** 底部文章链隐藏
+**/
+
+.single-pagination {
+    display: none;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    /*input your custom css code */
+}
+#newsList ul {
+    list-style: none;
+}
+#newsList ul li{
+    border-bottom: 1px dashed black;
+}
+#newsList ul li .icon img{
+    width: 30px;
+    height: auto;
+}
+#newsList > div.page:not(.show) {
+    display: none;
+}
+#newsList {
+    background-color: #eeeeee;
+}
+.show {
+    display: block;
+}
+.page {
+    width: 100%;
+    overflow: hidden;
+}
+.page ul li {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+}
+.page ul{
+
+    float: left;
+    width: 45%;
+    color:black;
+}
+.page ul li .icon {
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+.page ul li a{
+    width: 60%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:black;
+}
+.newsDate {
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 5%;
+    width: 25%;
+}
+.ul-footer {
+    text-align: right;
+    clear: both;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.ul-footer span {
+    margin-right: 20px;
+}
+.ul-footer .enterN {
+    width: 50px;
+    height: 25px;
+}
+.ul-footer .go {
+    height: 25px;
+    border: none;
+}
+#newsList ul:first-child li:first-child a{
+    color:blue;
+    font-size: 18px;
+}
+#newest {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+    height: 20%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#newest-left {
+    float: left;
+    width: 30%;
+}
+#newest-left img{
+    width: 300px;
+    height: auto;
+    border: 8px solid white;
+}
+#newest-title {
+    text-align: center;
+    font-size: 20px;
+    color:blue;
+}
+#newest-right {
+    text-align: left;
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+}
