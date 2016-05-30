@@ -251,11 +251,11 @@ p {
     text-align: center;
 }
 .about-title h3 span {
-    padding: 0 20px;
+    padding: 0 16px;
 }
 .about-title h3::before {
     content: '';
-    width: 120px;
+    width: 100px;
     height: 2px;
     vertical-align: middle;
     display: inline-block;
@@ -265,7 +265,7 @@ p {
     content: '';
     display: inline-block;
     vertical-align: middle;
-    width: 120px;
+    width: 100px;
     height: 2px;
     background-color: #46a1da;
 }

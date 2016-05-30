@@ -27,8 +27,8 @@ $(document).ready(function(){
         $('#newsList').append(html);
         $('#newsList div.page').eq(0).addClass('show');
         $('#newsList div:last .next').css({"display":"none"});
-        $('#newest-title').text($('#newsList li:first a').text());
-        $('#newest-right').append($('#newsList li:first a').text()+$('#newsList li:first .newsDate').eq(0).text());
+        //$('#newest-title').text($('#newsList li:first a').text());
+        //$('#newest-right').append($('#newsList li:first a').text()+$('#newsList li:first .newsDate').eq(0).text());
         $('.next').click(function(){
             $(this).parent().parent().removeClass('show').next().addClass('show');
         });
@@ -53,6 +53,7 @@ $(document).ready(function(){
         type: 'get',
         success: function(data){
             solveData(JSON.parse(data));
+            console.log(data);
         }
     });
 

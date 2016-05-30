@@ -15,6 +15,7 @@ img.emoji {
     height: 100px;
 }
 
+
 .hd-box div {
     float: left;
 }
@@ -158,4 +159,10 @@ th {
 
 .single-pagination {
     display: none;
+}
+.cbp_tmlabel p {
+    font-size: 16px;
+}
+.cbp_tmtime h6 {
+    font-size: 18px;
 }
