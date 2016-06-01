@@ -213,6 +213,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
     height: 25px;
     border: none;
 }
+
+.pre,.first-page,.next,.last-page {
+    cursor:pointer
+}
+
 #newsList ul:first-child li:first-child a{
     color:blue;
     font-size: 18px;

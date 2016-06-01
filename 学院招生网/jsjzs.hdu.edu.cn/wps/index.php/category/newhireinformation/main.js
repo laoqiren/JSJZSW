@@ -60,7 +60,7 @@ $(function(){
         });
     }
     $.ajax({
-        url: 'http://115.28.135.142/getJobs.php',
+        url: 'http://jsjzs.hdu.edu.cn/getJobs.php',
         type: 'get',
         success: function(data){
             solveData(data);

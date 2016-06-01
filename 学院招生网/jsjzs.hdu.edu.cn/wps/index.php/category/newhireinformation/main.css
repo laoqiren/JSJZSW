@@ -171,6 +171,7 @@ div.page:not(.show) {
     height: 25px;
 }
 .ul-footer .go {
+
     height: 25px;
     border: none;
 }
@@ -179,4 +180,10 @@ div.page:not(.show) {
 }
 .page {
     margin-top: 40px;
+}
+.item-more {
+    cursor:pointer
+}
+.pre,.first-page,.next,.last-page {
+    cursor:pointer
 }
