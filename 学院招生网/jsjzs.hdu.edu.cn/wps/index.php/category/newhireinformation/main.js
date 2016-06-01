@@ -22,20 +22,25 @@ $(function(){
         //$('#newest-right').append($('#newsList li:first a').text()+$('#newsList li:first .newsDate').eq(0).text());
         $('.next').click(function(){
             $(this).parent().parent().removeClass('show').next().addClass('show');
+            $('.content-wrap table').hide();
         });
         $('.pre').click(function(){
             $(this).parent().parent().removeClass('show').prev().addClass('show');
+            $('.content-wrap table').hide();
         });
         $('.first-page').click(function(){
             $('div.page').eq(0).addClass('show').siblings().removeClass('show');
+            $('.content-wrap table').hide();
         });
         $('.last-page').click(function(){
             $('div.page:last').addClass('show').siblings().removeClass('show');
+            $('.content-wrap table').hide();
         });
         $('.go').click(function(){
             var pageNumber = parseInt($(this).prev().val());
             if(1<=pageNumber&&pageNumber<=$('div.page').length){
                 $('div.page').eq(pageNumber-1).addClass('show').siblings().removeClass('show');
+                $('.content-wrap table').hide();
             }
         });
         $('.item-more').click(function(){
