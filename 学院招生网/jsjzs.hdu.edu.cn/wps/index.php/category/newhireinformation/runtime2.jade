@@ -1,0 +1,21 @@
+- var i = 1
+- var num = 0
+for page in pages
+    div(class='page')
+        for item in page
+            div(class='every-item',id='#{num++}')
+                div(class='item-upTime') #{item.upTime}
+                h3(class='item-title') #{item.name}
+                span(class='item-belong') #{item.belong}
+                span(clss='item-type') #{item.type}
+                span(class='item-email') #{item.email}
+                span(class='item-more') Read more
+        div(class='ul-footer')    
+            span 最大显示5条
+            span(class='first-page') 首页
+            - if ((i++)!=1)
+                span(class='pre')  前一页
+            span(class='next') 下一页
+            span(class='last-page') 尾页
+            input(type='text',class='enterN')
+            input(type='button',class='go',value='GO')

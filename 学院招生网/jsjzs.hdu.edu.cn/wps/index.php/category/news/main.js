@@ -25,6 +25,17 @@ $(document).ready(function(){
         };
         var html = template(obj);
         $('#newsList').append(html);
+        $('.content-wrap ul li a').click(function(e){
+            e.preventDefault();
+            var clickUrl = $(this).attr('href').slice(45);
+            $.ajax({
+                url:'http://jsjzs.hdu.edu.cn/getNewsDetail.php?id='+clickUrl,
+                type:'get',
+                success:function(data){
+                    $('#news-content').html(data.data.article);
+                }
+            });
+        });
         $('#newsList div.page').eq(0).addClass('show');
         $('#newsList div:last .next').css({"display":"none"});
         //$('#newest-title').text($('#newsList li:first a').text());
@@ -53,7 +64,7 @@ $(document).ready(function(){
         type: 'get',
         success: function(data){
             solveData(JSON.parse(data));
-            console.log(data);
+            //console.log(data);
         }
     });
 
