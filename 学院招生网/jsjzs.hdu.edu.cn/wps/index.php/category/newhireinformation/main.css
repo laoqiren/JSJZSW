@@ -187,3 +187,6 @@ div.page:not(.show) {
 .pre,.first-page,.next,.last-page {
     cursor:pointer
 }
+.item-title {
+    color: rgb(45, 141, 210)
+}
